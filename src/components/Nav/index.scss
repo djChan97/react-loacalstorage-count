@@ -4,7 +4,27 @@ $navClsPrefix: nav;
   display: flex;
   height: 50px;
   width: 100%;
-  box-sizing: border-box;
+  font-size: 12px;
   justify-content: space-around;
+  align-items: center;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);;
+
+  a {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.5s;
+
+    &.selected {
+      color: #409eff;
+    }
+
+    .icon {
+      font-size: 32px;
+    }
+  }
+
 }
