@@ -1,0 +1,10 @@
+$navClsPrefix: nav;
+
+.#{$navClsPrefix} {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-around;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);;
+}
