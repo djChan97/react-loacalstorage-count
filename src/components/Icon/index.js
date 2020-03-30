@@ -1,12 +1,11 @@
 import React from "react";
 import "./index.scss";
-import Chart from "../icons/chart.svg";
 
-const Icon = () => {
+const Icon = ({name}) => {
 	const iconCLsPrefix = "icon";
-	return <div>
-		<Chart/>
-	</div>;
+	return <svg className={iconCLsPrefix} aria-hidden="true">
+		<use xlinkHref={`#icon-${name}`}/>
+	</svg>;
 };
 
 export default Icon;
