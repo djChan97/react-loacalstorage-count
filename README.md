@@ -1,1 +1,1 @@
-# react-localstorage-count
+# React Accounting application
